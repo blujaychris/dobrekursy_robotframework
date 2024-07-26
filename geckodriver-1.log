@@ -1,0 +1,21 @@
+1721849698080	geckodriver	INFO	Listening on 127.0.0.1:62421
+1721849701179	mozrunner::runner	INFO	Running command: "C:\\Users\\chris\\.cache\\selenium\\firefox\\win64\\128.0.2\\firefox.exe" "--marionette" "--remote-debuggin ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\chris\\AppData\\Local\\Temp\\rust_mozprofilewURS4t"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1721849701633	Marionette	INFO	Marionette enabled
+1721849701716	Marionette	INFO	Listening on port 62448
+WebDriver BiDi listening on ws://127.0.0.1:62422
+Read port: 62448
+1721849701829	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62422/devtools/browser/9285c3ee-a7b4-48a3-936d-d80edb4cfb08
+JavaScript error: https://demoqa.com/bundle.js, line 95: TypeError: rd.find(...) is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/xN9hUULVgyxAPKQ62814CBM688K6j8JWxFN2v-BIqww.js line 2 > eval line 3309 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&l=dataLayer&cx=c, line 562: Script terminated by timeout at:
+h.rh@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&l=dataLayer&cx=c:562:30
+get@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&l=dataLayer&cx=c:560:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&l=dataLayer&cx=c:560:87
+h.Jk/c/<@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&l=dataLayer&cx=c:560:410
+
+1721849705939	Marionette	INFO	Stopped listening on port 62448
+Dynamically enable window occlusion 1

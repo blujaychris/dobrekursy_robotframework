@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.0 on win32)" generated="2024-07-24T18:30:16.429838" rpa="false" schemaversion="5">
+<suite id="s1" name="WebElementSearch" source="C:\Users\chris\PycharmProjects\dobrekursy-robotframework-selenium\Tests\WebElements\WebElementSearch.robot">
+<test id="s1-t1" name="EBAY" line="15">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-07-24T18:30:16.609839" level="INFO">Opening browser 'chrome' to base url 'https://www.ebay.pl/'.</msg>
+<msg time="2024-07-24T18:30:16.610807" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2024-07-24T18:30:16.610807" level="FAIL">ValueError: Unable to parse option: "add_argument(*--incognito*)"</msg>
+<arg>https://www.ebay.pl/</arg>
+<arg>chrome</arg>
+<arg>options=add_argument(*--incognito*)</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2024-07-24T18:30:16.609839" elapsed="0.002963">ValueError: Unable to parse option: "add_argument(*--incognito*)"</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-07-24T18:30:16.613830" elapsed="0.000000"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" start="2024-07-24T18:30:16.613830" elapsed="0.000000"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>//*[@id=*gh-ac*]</arg>
+<arg>klocki</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-07-24T18:30:16.613830" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-07-24T18:30:16.613830" elapsed="0.000000"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//*[@id=*gh-btn*]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-07-24T18:30:16.613830" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-07-24T18:30:16.613830" elapsed="0.000000"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<arg>Wyniki dla kolcki</arg>
+<arg>TRACE</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="NOT RUN" start="2024-07-24T18:30:16.614823" elapsed="0.000000"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>2s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2024-07-24T18:30:16.614823" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2024-07-24T18:30:16.614823" elapsed="0.000000"/>
+</kw>
+<tag>chrome</tag>
+<tag>ebay</tag>
+<tag>search</tag>
+<tag>selenium</tag>
+<status status="FAIL" start="2024-07-24T18:30:16.608854" elapsed="0.005969">ValueError: Unable to parse option: "add_argument(*--incognito*)"</status>
+</test>
+<doc>To jest test, w którym testujemy otwieranie przeglądarki i wyszukiwanie
+1. Otwieramy przeglądarkę na stronie ebay
+2. Uzytkownik klika na pole do wyszukiwania i wpisuje tekst
+3. Uzytkownik klika na przycisk "Wyszukaj"
+4. Weryfikacja wynikow
+5. Zamykamy przegladarke</doc>
+<status status="FAIL" start="2024-07-24T18:30:16.430834" elapsed="0.184959"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">chrome</stat>
+<stat pass="0" fail="1" skip="0">ebay</stat>
+<stat pass="0" fail="1" skip="0">search</stat>
+<stat pass="0" fail="1" skip="0">selenium</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="WebElementSearch">WebElementSearch</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

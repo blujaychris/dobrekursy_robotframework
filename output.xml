@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.0 on win32)" generated="2024-07-26T17:36:45.155208" rpa="false" schemaversion="5">
+<suite id="s1" name="Test zasobow" source="C:\Users\chris\PycharmProjects\dobrekursy-robotframework-selenium\Tests\Basics\Test_zasobow.robot">
+<test id="s1-t1" name="TEST1" line="26">
+<kw name="Zaloguj uzytkownika">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-07-26T17:36:45.177150" level="INFO">janek</msg>
+<arg>${MOJ_SLOWNIK}[login]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-07-26T17:36:45.177150" elapsed="0.000996"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-07-26T17:36:45.179144" level="INFO">12345</msg>
+<arg>${MOJ_SLOWNIK}[haslo]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-07-26T17:36:45.179144" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2024-07-26T17:36:45.177150" elapsed="0.001994"/>
+</kw>
+<kw name="Zaloguj wybranego uzytkownika">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-07-26T17:36:45.180142" level="INFO">janek</msg>
+<arg>${UZYTKOWNIK}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-07-26T17:36:45.180142" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-07-26T17:36:45.180142" level="INFO">12345</msg>
+<arg>${HASLO}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-07-26T17:36:45.180142" elapsed="0.000000"/>
+</kw>
+<kw name="Log Many" owner="BuiltIn">
+<msg time="2024-07-26T17:36:45.180142" level="INFO">janek</msg>
+<msg time="2024-07-26T17:36:45.180142" level="INFO">12345</msg>
+<arg>${UZYTKOWNIK}</arg>
+<arg>${HASLO}</arg>
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<status status="PASS" start="2024-07-26T17:36:45.180142" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-07-26T17:36:45.181139" level="INFO">Logowanie z uzytkownikiem: janek i haslem: 12345</msg>
+<arg>Logowanie z uzytkownikiem: ${UZYTKOWNIK} i haslem: ${HASLO}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-07-26T17:36:45.181139" elapsed="0.000000"/>
+</kw>
+<arg>${MOJ_SLOWNIK}[login]</arg>
+<arg>${MOJ_SLOWNIK}[haslo]</arg>
+<status status="PASS" start="2024-07-26T17:36:45.179144" elapsed="0.001995"/>
+</kw>
+<status status="PASS" start="2024-07-26T17:36:45.176152" elapsed="0.004987"/>
+</test>
+<doc>Nasz test test zasobow</doc>
+<status status="PASS" start="2024-07-26T17:36:45.157202" elapsed="0.024934"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test zasobow">Test zasobow</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

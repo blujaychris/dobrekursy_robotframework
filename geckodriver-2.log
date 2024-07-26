@@ -1,0 +1,22 @@
+1721849730438	geckodriver	INFO	Listening on 127.0.0.1:62506
+1721849733517	mozrunner::runner	INFO	Running command: "C:\\Users\\chris\\.cache\\selenium\\firefox\\win64\\128.0.2\\firefox.exe" "--marionette" "--remote-debuggin ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\chris\\AppData\\Local\\Temp\\rust_mozprofilegU3R8z"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1721849733723	Marionette	INFO	Marionette enabled
+1721849733801	Marionette	INFO	Listening on port 62516
+WebDriver BiDi listening on ws://127.0.0.1:62507
+Read port: 62516
+1721849733913	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62507/devtools/browser/ea02e4b6-0cc5-465f-a75d-461647d689dc
+JavaScript error: https://demoqa.com/bundle.js, line 95: TypeError: rd.find(...) is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/xN9hUULVgyxAPKQ62814CBM688K6j8JWxFN2v-BIqww.js line 2 > eval line 2057 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1721849763753	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&l=dataLayer&cx=c, line 562: Script terminated by timeout at:
+h.rh@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&l=dataLayer&cx=c:562:30
+get@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&l=dataLayer&cx=c:560:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&l=dataLayer&cx=c:560:87
+h.Jk/c/<@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&l=dataLayer&cx=c:560:410
+
+1721850317045	Marionette	INFO	Stopped listening on port 62516
+Dynamically enable window occlusion 1

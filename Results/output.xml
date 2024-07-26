@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.0 on win32)" generated="2024-06-29T13:32:02.743694" rpa="false" schemaversion="5">
+<suite id="s1" name="Variables" source="C:\Users\chris\PycharmProjects\dobrekursy-robotframework-selenium\Tests\Basics\Variables.robot">
+<test id="s1-t1" name="TEST1" line="15">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-29T13:32:02.760649" level="INFO">Hello variable</msg>
+<arg>${MOJA_ZMIENNA}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-29T13:32:02.760649" elapsed="0.000997"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-29T13:32:02.761646" level="INFO">niebieski</msg>
+<arg>${MOJA_ZMIENNA2}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-29T13:32:02.761646" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-29T13:32:02.761646" level="INFO">['test1', 'test2', 'test3', 'test4']</msg>
+<arg>${MOJA_LISTA}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-29T13:32:02.761646" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-29T13:32:02.761646" level="INFO">test1</msg>
+<arg>${MOJA_LISTA}[0]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-29T13:32:02.761646" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-29T13:32:02.762644" level="INFO">test3</msg>
+<arg>${MOJA_LISTA}[2]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-29T13:32:02.761646" elapsed="0.000998"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-29T13:32:02.762644" level="INFO">janek</msg>
+<arg>${MOJ_SLOWNIK}[login]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-29T13:32:02.762644" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-06-29T13:32:02.762644" level="INFO">12345</msg>
+<arg>${MOJ_SLOWNIK}[haslo]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-06-29T13:32:02.762644" elapsed="0.000000"/>
+</kw>
+<tag>Kurs</tag>
+<tag>Kurs2</tag>
+<status status="PASS" start="2024-06-29T13:32:02.760649" elapsed="0.001995"/>
+</test>
+<doc>Nasz test</doc>
+<status status="PASS" start="2024-06-29T13:32:02.744692" elapsed="0.018949"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Kurs</stat>
+<stat pass="1" fail="0" skip="0">Kurs2</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Variables">Variables</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
